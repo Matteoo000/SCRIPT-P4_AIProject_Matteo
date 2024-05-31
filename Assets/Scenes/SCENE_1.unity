@@ -150,13 +150,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2374121}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -25.863758, y: 15.321636, z: -11.353712}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.5}
+  m_LocalPosition: {x: -25.61, y: 15.321636, z: -11.353712}
   m_LocalScale: {x: 50, y: 0.1, z: 50}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1541536989}
-  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 270, z: 0}
 --- !u!65 &2374123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -176,8 +176,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 6.2238216, z: 1}
+  m_Center: {x: 0, y: -2.611909, z: 0}
 --- !u!23 &2374124
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -266,8 +266,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0740479, y: 1.2832326, z: 1.4268166}
+  m_Center: {x: 0.03702394, y: -0.014898156, z: -0.0078040315}
 --- !u!23 &18365187
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -539,7 +539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 587188179}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GUN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,7 +639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 629535268}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ARM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -739,7 +739,7 @@ GameObject:
   - component: {fileID: 676315849}
   - component: {fileID: 676315848}
   - component: {fileID: 676315847}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1019,7 +1019,7 @@ GameObject:
   - component: {fileID: 720693526}
   - component: {fileID: 720693525}
   - component: {fileID: 720693524}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1200,7 +1200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 851673178}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1275,8 +1275,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 5.548051, z: 1}
+  m_Center: {x: 0, y: 2.2740266, z: -2.0560722e-17}
 --- !u!23 &871029885
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1365,8 +1365,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.1707112, y: 1.202203, z: 2.3019485}
+  m_Center: {x: -0.00013128977, y: 0.10110057, z: -0.008451462}
 --- !u!23 &961402580
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1444,7 +1444,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1558,7 +1558,7 @@ GameObject:
   - component: {fileID: 1163603188}
   - component: {fileID: 1163603187}
   - component: {fileID: 1163603186}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1945,7 +1945,7 @@ GameObject:
   - component: {fileID: 1576458505}
   - component: {fileID: 1576458504}
   - component: {fileID: 1576458503}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2283,8 +2283,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 7.4384866, z: 1}
+  m_Center: {x: 0, y: -3.2192442, z: -4.2732812e-19}
 --- !u!23 &1740231114
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2352,7 +2352,7 @@ GameObject:
   - component: {fileID: 1953377304}
   - component: {fileID: 1953377306}
   - component: {fileID: 1953377305}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2460,9 +2460,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cea36fda8d671ca4eaca0bf41fc6b3aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 1
   jumpForce: 10
   sprintMultiplier: 1.5
+  groundCheckDistance: 0.1
+  obstacleCheckDistance: 1.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 55
+  cameraTransform: {fileID: 963194228}
 --- !u!143 &1953377302
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2529,9 +2535,9 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1953377306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2629,8 +2635,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 3.210926, z: 1}
+  m_Center: {x: 0, y: -4.4562244, z: 0}
 --- !u!23 &2106140000
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2693,7 +2699,7 @@ GameObject:
   - component: {fileID: 2130963488}
   - component: {fileID: 2130963487}
   - component: {fileID: 2130963486}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
