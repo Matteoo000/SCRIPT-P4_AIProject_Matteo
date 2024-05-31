@@ -1840,7 +1840,7 @@ GameObject:
   - component: {fileID: 1561208751}
   - component: {fileID: 1561208750}
   - component: {fileID: 1561208749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2461,13 +2461,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  jumpForce: 10
+  jumpForce: 1000
   sprintMultiplier: 1.5
   groundCheckDistance: 0.1
   obstacleCheckDistance: 1.1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 64
   cameraTransform: {fileID: 963194228}
 --- !u!143 &1953377302
 CharacterController:
